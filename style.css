@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  overflow-x: hidden !important;
+}
+header,
+.scoreSection,
+.score {
+  text-align: center;
+}
+.options li,
+.scoreTxt,
+.score {
+  color: #18978f;
+}
+header,
+.ques,
+.btn,
+.btn2 {
+  color: #fff;
+}
+header,
+.ques,
+.btn,
+.btn2 {
+  background-color: #18978f;
+}
+.options li,
+.QuestionBox {
+  font-size: 15px;
+}
+.options li,
+.ques {
+  border-radius: 10px;
+}
+.btn,
+.btn2 {
+  border: none;
+  border-radius: 20px;
+  font-size: 18px;
+  cursor: pointer;
+  height: 40px;
+  width: 130px;
+}
+header {
+  height: 100px;
+  width: 100vw;
+  padding-top: 25px;
+}
+.options li,
+.QuestionBox {
+  width: 600px;
+}
+.options li,
+.ques {
+  padding-left: 30px;
+}
+.options li {
+  box-shadow: 1px 1px 1px 0px #18978f;
+  height: 50px;
+  border: 2px solid #18978f;
+  padding-top: 10px;
+  margin-top: 10px;
+}
+input[type="radio"] {
+  margin-right: 10px;
+}
+.QuestionBox {
+  height: 400px;
+}
+.options,
+.btn,
+.btn2 {
+  margin-top: 5%;
+}
+.ques {
+  padding-top: 20px;
+  margin-top: 8%;
+  height: 70px;
+}
+.btn {
+  margin-left: 78%;
+}
+ul {
+  list-style: none;
+}
+.scoreSection {
+  visibility: hidden;
+}
+.scoreSection,
+.QuestionBox {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.score,
+.ques {
+  font-weight: bold;
+}
+@media only screen and (max-width: 425px) {
+  html,
+  body {
+    width: 100% !important;
+    overflow-x: hidden !important;
+  }
+  .QuestionBox,
+  .options li {
+    width: 400px;
+  }
+  .btn {
+    margin-left: 68%;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .QuestionBox,
+  .options li {
+    width: 300px;
+  }
+  .btn {
+    margin-left: 58%;
+  }
+}
